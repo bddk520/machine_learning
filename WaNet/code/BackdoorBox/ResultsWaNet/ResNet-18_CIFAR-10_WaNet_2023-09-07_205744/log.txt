@@ -1,0 +1,5 @@
+==========Schedule parameters==========
+{'device': 'GPU', 'CUDA_VISIBLE_DEVICES': '0', 'GPU_num': 1, 'benign_training': False, 'batch_size': 128, 'num_workers': 0, 'lr': 0.1, 'momentum': 0.9, 'weight_decay': 0.0005, 'gamma': 0.1, 'schedule': [150, 180], 'epochs': 100, 'log_iteration_interval': 100, 'test_epoch_interval': 1, 'save_epoch_interval': 20, 'save_dir': 'Results\\WaNet', 'experiment_name': 'ResNet-18_CIFAR-10_WaNet'}
+==========Use GPUs to train==========
+CUDA_VISIBLE_DEVICES=0
+CUDA_SELECTED_DEVICES=0

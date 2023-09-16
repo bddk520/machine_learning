@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# data
+data/
+adv_dataset_old/
+
+# experiments
+experiments/
+
+# personal test code
+*data*/
+*experiments*/
+tests/model/
+mytest/
+./test.sh
+./test.py
+./test2.py
